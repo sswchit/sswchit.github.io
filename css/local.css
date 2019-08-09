@@ -12,7 +12,7 @@ body h3, h4, p {font-family: 'Roboto', sans-serif;color: #5b4048;}
 
 .mt-7 img {position: absolute; right: 0px;}
 
-.banner_content {padding-top: 17rem; position: absolute;top: 0;right: 0;z-index: 1;bottom: 0;left: 0;height: 100%;}
+.banner_content {padding-top: 17rem; position: absolute;top: 0;right: 0;z-index: 1;bottom: 0;left: 0;height: 15rem;}
 
 .banner_content h2 {font-family: 'Marck Script', cursive; font-size: 2.5rem;}
 
@@ -41,4 +41,6 @@ footer ul li {padding: 0px 30px 30px 30px;}
 .card {border: 0 !important;}
 
 .sec_row {padding-top: 3rem; padding-bottom: 10rem;}
+
+.example {height: 250px; background-image: url(../images/bg_2.png), url(../images/bg_1.png); background-position: right center, left center;background-repeat: no-repeat;}
 
