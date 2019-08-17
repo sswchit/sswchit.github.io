@@ -2,10 +2,15 @@ body h2 {color: #5b4048;}
 body h3, h4, p {font-family: 'Roboto', sans-serif;color: #5b4048;}
 
 /*.logo {padding-left: 7rem !important;}*/
+.navbar {background-color: transparent; padding: 0px; }
+
+.navbar.active {    color: #fff!important; transition: background-color .7s; box-shadow: 0 0 10px rgba(0,0,0,0.3); }
 
 .menu .navbar-collapse {padding-right: 6rem !important;}
 
 .menu .navbar-collapse a {padding-right: 3rem !important;}
+
+.cus {width: 15rem;}
 
 /*banner*/
 .mt-7 {height: 15rem; position: relative; margin-top: 6.5rem; background-image: url(../images/bg_1.png); background-repeat: no-repeat; background-position: left;}
@@ -18,9 +23,11 @@ body h3, h4, p {font-family: 'Roboto', sans-serif;color: #5b4048;}
 
 .banner_content p {font-size: 1.3rem; font-weight: lighter; padding-top: 15px;}
 
-.line {padding-top: 30px;}
+/*.about_me {padding-top: 30px;}*/
 
-.line hr {width: 80%; border-top: 1px solid #f4dada; padding-top: 2rem;}
+.line {padding-top: 50px;}
+
+.line hr {width: 80%; border-top: 1px solid #f4dada; padding-top: 1rem;}
 
 .sk h3 {padding-top: 3rem; padding-bottom: 4rem;}
 
@@ -43,4 +50,3 @@ footer ul li {padding: 0px 30px 30px 30px;}
 .sec_row {padding-top: 3rem; padding-bottom: 10rem;}
 
 .example {height: 250px; background-image: url(../images/bg_2.png), url(../images/bg_1.png); background-position: right center, left center;background-repeat: no-repeat;}
-
